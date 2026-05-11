@@ -1,10 +1,13 @@
 ## Multitasking
 
 - CPU -> core -> program -> process -> thread.
+- A thread is the smallest unit of execution within a process. A process can have multiple threads, which share the same resources but can run independently.
+
 
 - Multitasking.
 
-![alt text](image.png)
+<img width="1414" height="400" alt="image" src="https://github.com/user-attachments/assets/28e13d7f-0aad-40d0-b8d1-6b6474cbcca0" />
+
 
 - eg: we are browsing the internet while listening to music and downloading a file.
 
@@ -15,7 +18,7 @@
 - It refers to the ability to execute multiple threads within a single process concurrently.
 - eg: web browser can use multithreading by having separate threads for rendering the page, running JS, and managing user inputs. This makes the browser more responsive and efficient.
 
-- Multithreading enhances the efficiently of multitasking by breaking down individual tasks into smaller subtasks or threads. These threads can be processed simultaneously, making better use of the CPU's capabilites.
+- Multithreading enhances the efficiency of multitasking by breaking down individual tasks into smaller subtasks or threads. These threads can be processed simultaneously, making better use of the CPU's capabilites.
 
 
 ## Diff
@@ -28,7 +31,7 @@
 
 - Multithreading allows a single application to perform multiple tasks at the same time, improving application performance and responsiveness.
 
-- eg: the office manager (OS) assigns different employess( processes) to work on different projects( applications) simultaneously. Each employee works on a different project independently.
+- eg: the office manager (OS) assigns different employess( processes) to work on different projects(applications) simultaneously. Each employee works on a different project independently.
 Now within a single project( application), a team( process) of employess( threads) works on different parts of project at the same time, collaborating and sharing resources.
 
 - In a single-core system: Both threads and processes are managed by the OS scheduler through time slicing and context switching to create the illusion of simultanaeous execution.
